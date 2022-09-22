@@ -89,7 +89,7 @@ p {
 
 .cta {
     display: inline-block;
-    padding: 15px 25px;
+    padding:10px 20px;
     color: #fefefc;
     background-color:transparent;
     border: 2px solid #fefefee6;
@@ -183,7 +183,7 @@ h1 span {
     border-radius: 10px;
 }
 
-#portfolio .project-info {
+#portfolio .project-info  {
     padding: 30px;
     flex-basis: 50%;
     height: 100%;
@@ -195,11 +195,31 @@ h1 span {
     color: rgb(255, 255, 255);
     opacity: 90%;
 }
+.a1{
+    font-size: 15px;
+    color: #e9f0f0;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.a1:hover{
+    background-image: linear-gradient(-90deg, rgb(129, 129, 232),rgb(246, 160, 246));
+    filter: blur(1px);
+    box-shadow: #131313;
+    text-align: center;
+    color: white;
+}
 
 #portfolio .project-info h1 {
     font-size: 4rem;
     font-weight: 500;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 
 #portfolio .project-info h2 {
     font-size: 1.8rem;
@@ -303,3 +323,17 @@ footer {
         flex-direction: row-reverse;
     }
 }
+    .links,a{
+    display: flex;
+    justify-content:center;
+    height: 50px;
+    padding: 5px;
+    margin-top: 3px;
+    
+}
+@media screen and (min-width: 400px) {
+    body {
+      min-width:min-content;
+    }
+  }
+   

@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 5rem;
+    color: rgb(241, 234, 234);
+    filter: blur(1px);
+    text-shadow: 0.1em 0.1em #333;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.container1{
+    
+    width: 100%;
+    height: 100vh; 
+    background-image:url(https://s1.1zoom.me/big0/941/Asian_Bride_Groom_Wedding_Dress_Street_Beautiful_576555_1280x720.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://i.pinimg.com/originals/c3/a5/b3/c3a5b332f9716abb1c67da38a12595e8.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+
+}
+.container3{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://storage.alboom.ninja/sites/6983/albuns/411431/img_3159.jpg?t=1554079485);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+footer{
+    display:grid;
+    justify-content: center;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 120px;
+    color: white;
+    font: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(50, 50, 63);
+  
+    
+}
+
+.links,a{
+    display: flex;
+    justify-content:center;
+    height: 50px;
+    padding: 5px;
+    margin-top: 3px;
+    
+}
+@media screen and (min-width: 400px) {
+    body {
+      min-width:min-content;
+    }
+  }
+  
